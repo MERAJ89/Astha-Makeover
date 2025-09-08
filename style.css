@@ -1,3 +1,28 @@
+/* WhatsApp Icon Styling */
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  background: #25d3661a;
+  padding: 0.35em 0.9em 0.35em 0.5em;
+  border-radius: 22px;
+  text-decoration: none;
+  color: #25d366;
+  font-weight: 600;
+  font-size: 1.08rem;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(37,211,102,0.08);
+}
+.whatsapp-link:hover {
+  background: #25d36622;
+  box-shadow: 0 2px 8px rgba(37,211,102,0.13);
+}
+.whatsapp-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+}
 /* Gallery Section */
 .gallery-section {
   background: #fffafc;
@@ -233,12 +258,20 @@ html body{
  
 }
 
-.navbar-logo {
+/* .navbar-logo {
   color: #d6336c;
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
+} */
+
+.navbar-logo img{
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  object-fit: cover;
+  /* z-index: 1001; */
 }
 
 .navbar-hamburger {
@@ -265,7 +298,7 @@ html body{
 @media (max-width: 768px) {
   .navbar-menu {
     position: absolute;
-    top: 56px;
+    top: 100px;
     left: 0;
     right: 0;
     background: #222;

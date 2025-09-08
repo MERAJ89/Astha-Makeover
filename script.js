@@ -1,12 +1,3 @@
-// Banner animation on page load
-document.addEventListener('DOMContentLoaded', function() {
-  var banner = document.querySelector('.banner');
-  if (banner) {
-    setTimeout(function() {
-      banner.classList.add('animated');
-    }, 100);
-  }
-});
 // Hamburger menu toggle for mobile with animation and auto-hide on scroll
 document.addEventListener('DOMContentLoaded', function() {
   const hamburger = document.getElementById('navbar-hamburger');
