@@ -1,3 +1,66 @@
+/* Floating Contact Icon */
+.floating-contact {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e75480;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(231,84,128,0.18);
+  text-decoration: none;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.floating-contact img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 0;
+}
+.floating-contact:hover {
+  background: #c13b6b;
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 8px 32px rgba(231,84,128,0.22);
+}
+/* Floating WhatsApp Icon */
+.floating-whatsapp {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #25d366;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(37,211,102,0.18);
+  text-decoration: none;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.floating-whatsapp img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 0;
+}
+.floating-whatsapp:hover {
+  background: #128c7e;
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 8px 32px rgba(37,211,102,0.22);
+}
 /* WhatsApp Icon Styling */
 .whatsapp-link {
   display: inline-flex;
